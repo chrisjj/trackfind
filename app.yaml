@@ -1,0 +1,10 @@
+application: trackfind-1074
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: index.php
+  # Cuases error on Runner and Deploy
+  # mime_type: text/html; charset=iso-8859-1
